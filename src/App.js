@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import Login from './scenes/Login';
+import Signup from './scenes/Signup';
 import Protected from './scenes/Protected';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       {!user
-        ? < Login setUser={setUser} />
+        ? <>< Login setUser={setUser} /><Signup /></>
         : <Protected />
 
       }
