@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import Login from './scenes/login';
+import Login from './scenes/Login';
 import Protected from './scenes/Protected';
 
 function App() {
